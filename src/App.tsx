@@ -1,10 +1,10 @@
 import { useEffect, useState } from 'react';
-import logo from './logo.svg';
+import logo from './logo.png';
 import './App.css';
 import Form from './components/form';
 
 function App() {
-  const [contador, setContador] = useState(0);
+  // const [contador, setContador] = useState(0);
   // console.log(contador);
   // const setMiContador = (event: number) => {
   //   setContador(prev => prev + 1)
@@ -14,9 +14,9 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <Form />
-        <p>
+        {/* <p>
           Edit <code>{contador}</code> and save to reload.
-        </p>
+        </p> */}
         {/* <button onClick={() => setMiContador(1)}>
           Enter
         </button> */}
